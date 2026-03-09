@@ -63,12 +63,12 @@ const Contact = () => {
           {/* Map Side */}
           <div className="lg:w-1/2 relative min-h-[400px]">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15065.986603123862!2d72.82512140641258!3d19.260840502159157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0e57647569d%3A0xc0aec329c82d3555!2sMira%20Bhayandar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1704192000000!5m2!1sen!2sin" 
+              src="https://www.google.com/maps?q=18.575278630201296,73.98180610180336&output=embed"
               className="absolute inset-0 w-full h-full border-0" 
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Location Map"
+              title="TurfPlay Location Map"
             ></iframe>
             {/* Map overlay gradient */}
             <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-transparent pointer-events-none hidden lg:block"></div>

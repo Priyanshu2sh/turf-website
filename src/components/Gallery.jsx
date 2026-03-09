@@ -1,14 +1,14 @@
 import React from 'react';
+import cricketGround from "../assets/turf_images/cricket_ground.jpg";
+import badmintonCourt from "../assets/turf_images/badminton_court.jpg";
+import logo from "../assets/turf_images/logo.jpg";
 
 const Gallery = () => {
   // Using dynamic layout for images giving a modern masonry/grid feel
-  // using generic sports unsplash placeholders temporarily until accurate turf details provided
   const images = [
-    { src: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&q=80&w=800', alt: 'Football Turf', span: 'md:col-span-2 md:row-span-2' },
-    { src: 'https://images.unsplash.com/photo-1512719994953-eabf50895df7?auto=format&fit=crop&q=80&w=800', alt: 'Cricket Batting', span: 'col-span-1 row-span-1' },
-    { src: 'https://images.unsplash.com/photo-1629837944033-ae588eedf0fe?auto=format&fit=crop&q=80&w=800', alt: 'Badminton Play', span: 'col-span-1 row-span-1' },
-    { src: 'https://images.unsplash.com/photo-1574629810360-7efbb1925536?auto=format&fit=crop&q=80&w=800', alt: 'Night Turf Match', span: 'col-span-1 row-span-1' },
-    { src: 'https://images.unsplash.com/photo-1622279457486-640c4cb716f1?auto=format&fit=crop&q=80&w=800', alt: 'Badminton Equipment', span: 'md:col-span-2' },
+    { src: cricketGround, alt: 'Cricket Ground', span: 'md:col-span-2 md:row-span-2' },
+    { src: badmintonCourt, alt: 'Badminton Court', span: 'md:col-span-2' },
+    { src: logo, alt: 'TurfPlay Logo', span: 'col-span-1 row-span-1' },
   ];
 
   return (

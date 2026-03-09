@@ -45,15 +45,15 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-3 text-green-500 flex-shrink-0" />
-                <span>123 Sports Avenue,<br />Active City, AC 45678</span>
+                <span><a href="https://www.google.com/maps?q=18.575278630201296,73.98180610180336" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Gat no 1196, MAHI SPORT, <br /> Raisoni College Rd, <br />Near GS fitness club and rainbow glory society, Wagholi, Pune, Maharashtra 412207</a></span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-3 text-green-500 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span><a href="tel:+919158447171" className="hover:text-white transition-colors">+91 9158447171</a></span>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-3 text-green-500 flex-shrink-0" />
-                <span>bookings@turfplay.com</span>
+                <span><a href="mailto:bookings@mahisport.com" className="hover:text-white transition-colors">bookings@mahisport.com</a></span>
               </li>
             </ul>
           </div>

@@ -148,7 +148,7 @@ const HeroAnimation = () => {
         </div>
 
         {/* Scroll indicator overlay */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-80 text-white">
+        <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-80 text-white">
           <p className="text-xs tracking-widest uppercase mb-2">Scroll Down</p>
           <div className="w-[2px] h-16 bg-white/20 overflow-hidden relative">
             <div 
